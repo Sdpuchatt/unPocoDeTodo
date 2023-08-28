@@ -1,0 +1,21 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .flipped {
+    background-color: #fff;
+  }
